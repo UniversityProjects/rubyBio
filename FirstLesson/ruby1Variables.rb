@@ -71,7 +71,24 @@ puts " "
 # Numbers Can Be Created With A Lecteral (A Symbols Sequence) Formed By:
 # Values From 0 To 9
 # Underscore  _ (Ignored)
+# Unary Minus In Front Of The Number (-43)
 puts " "
+num = 8491
+puts num
+num = 54_35
+puts num
+num = -3
+puts num
+puts ""
+
+
+
+# Numbers Can Be Represented In Various Bases:
+# Normal Number -> 10 Base
+# Number Preceded By 0 -> 8 Base
+# Number Preceded By 0x -> 16 Base
+# Number Preceded By 0b -> 2 Base
+puts ""
 num = 84919 # Integer 10 base
 puts num
 num = 024566 # Integer 8 base
@@ -80,4 +97,22 @@ num = 0b100111 # Integer 2 base
 puts num
 num = 0x456afb # Integer 16 base
 puts num
+puts ""
+
+
+
+# Decimal Numbers
+# Objects From FloatClass
+# Formed Like Integer Numbers, Adding:
+# . For Separating The Decimal And The Integer Part
+# (Must Be Always Preceded And FOllowed By A Digit
+# e For Scientifical Notation
+puts ""
+dec = 424.432
+puts dec 
+dec = 1.35e3
+puts dec
+puts ""
+
+
 
